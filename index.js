@@ -27,7 +27,6 @@ var exportCollection = function(endpoint, key, database, collection, callback) {
       if (element) {
 
         // remove the DocumentDB special bits
-        delete element._ts;
         delete element._etag;
         delete element._attachments;
         delete element._self;
