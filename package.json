@@ -1,5 +1,5 @@
 {
-  "name": "documentdbexport",
+  "name": "documentdbexport_timestamp",
   "version": "1.0.2",
   "description": "Export DocumentDB data to JSON files",
   "main": "index.js",
