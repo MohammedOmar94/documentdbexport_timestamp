@@ -1,13 +1,13 @@
-# documentdbexport
+# documentdbexport_timestamp
 
-Command-line utility to export a DocumentDB database/collection to a list of JSON documents.
+Command-line utility to export a DocumentDB database/collection to a list of JSON documents including the timestamp.
 
 ## Installation
 
 The *documentdbexport* package is installed via npm:
 
 ```sh
-npm install -g documentdbexport
+npm install -g documentdbexport_timestamp
 ```
 
 You may need to precede the above command with `sudo`, depending on your Node.js installation.
