@@ -1,6 +1,6 @@
 {
   "name": "documentdbexport_timestamp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Export DocumentDB data to JSON files",
   "main": "index.js",
   "scripts": {
