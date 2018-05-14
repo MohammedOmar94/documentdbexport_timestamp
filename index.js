@@ -32,7 +32,9 @@ var exportCollection = function(endpoint, key, database, collection, callback) {
         delete element._self;
         delete element._rid;
         element._id = element.id;
+        element.timestamp = element._ts;
         delete element.id;
+        delete element._ts;
         i++;
 
         // output the JSON
